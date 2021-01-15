@@ -75,3 +75,38 @@ p.passage {
     -ms-transform: translateX(-50%);
     font-size: 25px;
 }
+
+div.form {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+p.sendButtonArea {
+    text-align: center;
+}
+
+input.sendButton {
+    font-family: 'ヒラギノ丸ゴ ProN';
+    font-size: 15px;
+    width: 25%;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1% 1%;
+    text-decoration: none;
+    color: #f8f5e9;
+    border: 1px #f8f5e9;
+    background: gray;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+input.sendButton:hover {
+    background: #1f2ac0;
+    color: #FFF;
+}
