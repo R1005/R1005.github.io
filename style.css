@@ -64,3 +64,14 @@ div.article20201106 {
     top: 35%;
     left: 20%;
 }
+
+p.passage {
+    text-align: center;
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    font-size: 25px;
+}
