@@ -8,7 +8,7 @@ div.menu {
 }
 
 input.menuButton {
-    font-family: 'ヒラギノ丸ゴ ProN';
+    font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
     font-size: 15px;
     width: 10%;
     cursor: pointer;
