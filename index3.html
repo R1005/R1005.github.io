@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <title>お問い合わせ</title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" href = "style3.css">
+        <script type = "text/javascript" src = "motions3.js"></script>
+    </head>
+    <body class = "main">
+        <div class = "menu">
+            <input type = "submit" value = "トップ" onclick = "location.href = 'index.html'" class = "menuButton">
+            <input type = "submit" value = "このサイトについて" onclick = "location.href = 'index2.html'" class = "menuButton">
+            <input type = "submit" value = "お問い合わせ" onclick = "location.href = 'index3.html'" class = "menuButton">
+            <input type = "submit" value = "外部リンク" onclick = "location.href = '#'" class = "menuButton">
+        </div>
+        <p class = "title">Contact Us</p>
+        <div class = "form">
+            <form action = "#" method = "post">
+                <p>メールアドレス：<input type = "text" name = "name" size = 20 required id = "adressTextArea"></p>
+                <p>質問内容を記入：<input type = "text" name = "name" size = 20 required id = "questionTextArea"></p>
+                <p class = "sendButtonArea"><input type = "button" value = "送信する" class = "sendButton" onclick = "sendMsg()"></p>
+            </form>
+        </div>
+        <div class = "aff_left">
+            <a href="https://pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank" rel = "noopener noreferrer">
+            <img src="https://img.moppy.jp/pub/pc/friend/120x600-11.jpg"></a>
+        </div>
+        <div class = "aff_right">
+            <a href = "https://pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank">
+            <img src = "https://img.moppy.jp/pub/pc/friend/120x600-3.jpg"></a>
+        </div>
+    </body>
+</html>
