@@ -120,37 +120,6 @@ body{
     margin: 30px auto;
 }
 
-.slider{
-    /* スライドを表示させる画面の横幅(≒スライド１枚あたりの横幅) */
-    width: 1600px;
-    /* スライドを表示させる画面の縦幅(≒スライド１枚あたりの縦幅) */
-    height: 1066px;
-    /* はみ出した要素は隠れるようにする */
-    overflow: hidden;
-}
-.slider__container{
-    /* スライドを表示する画面とスライド１枚をぴったり合わせるため設定 */
-    padding: 0;
-    margin: 0;
-    
-    /* 子要素でfloatを利用しているため設定 */
-    overflow: hidden;
-
-    list-style: none;
-
-    /* 後ほどJSでleftプロパティを設定するため必要 */
-    position: relative;
-
-}
-.slider__item{
-
-    width: 1600px;
-
-    height: 1066px;
-
-    float: left;
-}
-
 .history {
     position: absolute;
     top: 40%;
