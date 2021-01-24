@@ -120,7 +120,7 @@ body{
     margin: 30px auto;
 }
 
-.history {
+p.p_history {
     position: absolute;
     top: 25%;
     left: 25%;
