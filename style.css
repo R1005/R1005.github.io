@@ -150,3 +150,8 @@ body{
 
     float: left;
 }
+
+.history {
+    position: absolute;
+    left: 40%;
+}
