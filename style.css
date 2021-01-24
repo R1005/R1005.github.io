@@ -153,6 +153,7 @@ body{
 
 .history {
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 25%;
+    font-size: 15px;
 }
