@@ -115,12 +115,12 @@ body{
     background: #f6f5f4;
     color: #333;
 }
-.main{
+.main {
     width: 1600px;
     margin: 30px auto;
 }
 
-p.p_history {
+div.history {
     position: absolute;
     top: 25%;
     left: 25%;
