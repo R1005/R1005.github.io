@@ -126,3 +126,7 @@ div.history {
     left: 25%;
     font-size: 20px;
 }
+
+p.sample img{
+    width: 100px;
+}
