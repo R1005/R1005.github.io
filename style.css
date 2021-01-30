@@ -138,11 +138,9 @@ div.article {
     top: 30%;
 }
 
-p.20210130 {
-
-}
-
 div.20210130 {
-    width: 0.5em;
-    border: solid 3px #000;
+    border: solid;
+    border: 4px solid;
+    border-color: #031de2;
+    border-radius: 8px;
 }
