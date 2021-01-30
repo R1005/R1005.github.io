@@ -131,3 +131,8 @@ img.href_20210130 {
     width: 50%;
     height: 50%;
 }
+
+div.article {
+    position: absolute;
+    left: 30%;
+}
