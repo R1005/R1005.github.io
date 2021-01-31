@@ -48,6 +48,10 @@ div.aff_right {
     right: 7.5%;
 }
 
+.aff_img {
+    width: 5%;
+}
+
 div.border1 {
     position: relative;
     top: 300px;
