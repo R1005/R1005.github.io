@@ -32,13 +32,14 @@ function autoSlide(){
 
     if(currentItemNum < slideItemNum){
 
-        $slideContainer.animate({left: '-='+slideItemWidth+'px'}, DURATION);
+        $slideContainer.animate({left: '-='+slideItemWidth + 'px'}, DURATION);
         currentItemNum++;
 
-    }else if(currentItemNum = slideItemNum){
+    }
+    else if(currentItemNum = slideItemNum){
 
-        $slideContainer.css('left', '+='+slideItemWidth*(slideItemNum-1)+'px');
-        currentItemNum = 1;//現在のスライド番号を１に戻す
+        $slideContainer.css('left', '+='+slideItemWidth * (slideItemNum-1)+'px');
+        currentItemNum = 1;
     }
 }
 
