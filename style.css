@@ -138,9 +138,9 @@ div.article {
     top: 30%;
 }
 
-div.20210130 {
-    border: solid;
-    border: 4px solid;
-    border-color: #031de2;
-    border-radius: 8px;
+p.p_20210130 {
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    font-size: 10px;
 }
