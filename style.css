@@ -171,9 +171,10 @@ div.article_box {
     padding: 0.5em 1em;
     margin: 2em 0;
     font-weight: bold;
-    color: #6091d3;/*文字色*/
-    background: #FFF;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
+    color: #6091d3;
+    background: rgba(64, 209, 162, 0);
+    border: solid 1px rgb(218, 195, 72);
+    border-radius: 10px;
+    width: 50vw;
 }
 
