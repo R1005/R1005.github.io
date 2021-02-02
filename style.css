@@ -9,7 +9,7 @@ div.menu {
 
 input.menuButton {
     font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
-    font-size: 15px;
+    font-size: 0.9vw;
     width: 10%;
     cursor: pointer;
     display: inline-block;
