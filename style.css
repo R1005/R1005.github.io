@@ -10,7 +10,7 @@ div.menu {
 input.menuButton {
     font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
     font-size: 0.9vw;
-    width: 10%;
+    width: 10vw;
     cursor: pointer;
     display: inline-block;
     padding: 1% 1%;
