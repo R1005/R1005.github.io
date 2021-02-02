@@ -168,7 +168,7 @@ p.p_20210130 {
 }
 
 div.article_box {
-    text-align: center;
+/*     text-align: center; */
     padding: 1vw 1vw;
     margin: 2em 0;
     font-weight: bold;
@@ -179,3 +179,14 @@ div.article_box {
     width: 50vw;
 }
 
+
+p.p_20210130 {
+    position: absolute ;
+    left: 25%;
+    top: 25%;
+}
+
+img.href_20210130 {
+    width: 9vw;
+    height: 6vw;
+}
