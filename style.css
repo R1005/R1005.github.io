@@ -166,3 +166,14 @@ p.p_20210130 {
     border-radius: 1px;
     border-color: #031de2;
 }
+
+div.article_box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+
