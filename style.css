@@ -169,24 +169,27 @@ p.p_20210130 {
 
 div.article_box {
 /*     text-align: center; */
-    padding: 1vw 1vw;
-    margin: 2em 0;
-    font-weight: bold;
-    color: black;
+    padding: 1%;
+/*     margin: 1 1; */
     background: rgba(64, 209, 162, 0);
     border: solid 1px rgb(218, 195, 72);
     border-radius: 10px;
-    width: 50vw;
+    width: 40vw;
 }
 
 
 p.p_20210130 {
-    position: absolute ;
-    left: 25%;
-    top: 27.5%;
+    position: absolute;
+    left: 30%;
+    top: 1.25vw;
+    font-size: 1.5vw;
 }
 
 img.href_20210130 {
     width: 9vw;
     height: 6vw;
+    position: relative;
+    top: 0.25vw;
+    left: 0.5vw;
 }
+
