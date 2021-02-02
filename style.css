@@ -30,7 +30,7 @@ input.menuButton:hover {
 
 p.title {
     position: absolute;
-    top: 10%; 
+    top: 10vw; 
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
