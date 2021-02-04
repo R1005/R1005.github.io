@@ -203,6 +203,8 @@ img.href_20210130 {
 div.sentence {
     text-align: center;
     font-size: 1vw;
+    position: absolute;
+    top: 10vw;
 }
 
 img.article_img {
