@@ -197,3 +197,8 @@ div.sentence {
     text-align: center;
     font-size: 1vw;
 }
+
+img.article_img {
+    width: 20vw;
+    height: 15vw;
+}
