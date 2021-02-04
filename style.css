@@ -38,6 +38,13 @@ p.title {
     font-family: 'Comic Sans MS';
     font-size: 3vw;
 }
+]
+p.new {
+    text-align: center;
+    color: red;
+    position: absolute;
+    top: 7vw;
+}
 
 p.article_title {
     position: absolute;
