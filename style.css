@@ -39,6 +39,11 @@ p.title {
     font-size: 3vw;
 }
 
+p.new {
+    text-align: center;
+    color: red;
+}
+
 p.article_title {
     position: absolute;
     top: 10%; 
