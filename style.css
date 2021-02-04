@@ -186,10 +186,14 @@ p.p_20210130 {
 }
 
 img.href_20210130 {
-    width: 9vw;
+    width: 8vw;
     height: 6vw;
     position: relative;
     top: 0.25vw;
     left: 0.5vw;
 }
 
+p.passage {
+    text-align: center;
+    font-size: 1vw;
+}
