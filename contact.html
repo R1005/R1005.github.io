@@ -16,8 +16,10 @@
         <p class = "title">Contact Us</p>
         <div class = "form">
             <form action = "form.php" method = "post">
-                <p>メールアドレス：<input type = "text" name = "name" size = 20 required id = "adressTextArea"></p>
-                <p>質問内容を記入：<input type = "text" name = "name" size = 20 required id = "questionTextArea"></p>
+                <label for = "mail"><input type = "text" name = "name" size = 20 required id = "adressTextArea"></p></label>
+                <p>名前を記入：</p>
+                <p>内容を記入：<input type = "text" name = "name" size = 20 required id = "questionTextArea"></p>
+
                 <p class = "sendButtonArea"><input type = "button" value = "送信する" class = "sendButton" onclick = "sendMsg()"></p>
             </form>
         </div>
