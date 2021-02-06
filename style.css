@@ -203,7 +203,7 @@ img.href_20210130 {
 div.sentence {
   text-align: center;
   position: absolute;
-  top: 50%;
+  top: 27.5vw;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
