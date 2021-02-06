@@ -60,11 +60,13 @@ p.article_title {
 div.aff_left {
     position: absolute;
     left: 7.5%;
+    top: 5vw;
 }
 
 div.aff_right {
     position: absolute;
     right: 7.5%;
+    top: 5vw;
 }
 
 .aff_img {
