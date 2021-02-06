@@ -210,6 +210,7 @@ div.sentence {
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   margin: 0 auto;
+    font-size: 1.25vw;
 }
 
 img.article_img {
