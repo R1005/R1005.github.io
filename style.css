@@ -210,6 +210,9 @@ img.IMG_1857 {
 img.IMG_2697 {
     width: 8vw;
     height: 6vw;
+    position: relative;
+    top: 0.25vw;
+    left: 0.5vw;
 }
 
 div.sentence {
