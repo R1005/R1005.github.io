@@ -101,6 +101,11 @@ p.passage {
     font-size: 25px;
 }
 
+p.center_set {
+    position: absolute;
+    left: 30%;
+}
+
 div.form {
     position: absolute;
     top: 30%; 
