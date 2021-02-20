@@ -3,9 +3,8 @@
 }
 
 div.menu {
-    padding-top: 0.5%;
-    position: relative;
-    left: 27.5vw;
+    padding-top: 0.5vw;
+    text-align: center;
 }
 
 input.menuButton {
