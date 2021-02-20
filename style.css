@@ -104,6 +104,8 @@ p.passage {
 div.center_set {
     position: absolute;
     left: 30%;
+    top: 15vw;
+    font-size: 1vw;
 }
 
 div.form {
@@ -189,18 +191,23 @@ div.article_box {
     width: 40vw;
 }
 
-
-p.p_20210130 {
+p.public_index_p {
     position: absolute;
     left: 12.5vw;
-    top: 1.25vw;
     font-size: 1.5vw;
 }
 
+p.p_20210130 {
+    top: 1.25vw;
+}
+
 p.p_20210212 {
+    top: 9vw;
+}
+
+p.public_index_p {
     position: absolute;
     left: 12.5vw;
-    top: 9vw;
     font-size: 1.5vw;
 }
 
