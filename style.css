@@ -101,7 +101,7 @@ p.passage {
     font-size: 25px;
 }
 
-p.center_set {
+div.center_set {
     position: absolute;
     left: 30%;
 }
