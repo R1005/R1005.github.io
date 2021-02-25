@@ -1,46 +1,22 @@
-function sendMsg() {
-
-    if ((document.getElementById('adressTextArea').value == "") && (document.getElementById('questionTextArea').value == "" )) {
-        alert('メールアドレスと質問内容を記入してください');
+$(function(){
+    
+    var ua = navigator.userAgent;
+    if(ua.indexOf("iPhone") > 0 || ua.indexOf("Android") > 0 && ua.indexOf("Mobile") > 0){
+    console.log("スマートフォン用のコードを書く");
+    }else{
+    console.log("PC/タブレット用のコードを書く");
     }
+  });
 
-    else if ((document.getElementById('adressTextArea').value == "") && !(document.getElementById('questionTextArea').value == "" )) {
-        alert('メールアドレスを記入してください');
-    }
+  <p id = "result"></p>
 
-    else if (!(document.getElementById('adressTextArea').value == "") && (document.getElementById('questionTextArea').value == "" )) {
-        alert('質問内容を記入してください');
-    }
 
-    else if (!(document.getElementById('adressTextArea').value == "") && !(document.getElementById('questionTextArea').value == "" )) {
-        alert('送信されました');
-        location.reload();
-    }
+  // id属性で要素を取得
+var textbox_element = document.getElementById('textbox');
 
-}
+// 新しいHTML要素を作成
+var new_element = document.createElement('p');
+new_element.textContent = '追加テキスト';
 
-var currentItemNum = 1;
-var $slideContainer = $('.slider__container');
-var slideItemNum = $('.slider__item').length;
-var slideItemWidth = $('.slider__item').innerWidth();
-var slideContainerWidth = slideItemWidth * slideItemNum;
-var DURATION = 1000;
-
-$slideContainer.attr('style', 'width:' + slideContainerWidth + 'px');
-
-function autoSlide(){
-
-    if(currentItemNum < slideItemNum){
-
-        $slideContainer.animate({left: '-='+slideItemWidth + 'px'}, DURATION);
-        currentItemNum++;
-
-    }
-    else if(currentItemNum = slideItemNum){
-
-        $slideContainer.css('left', '+='+slideItemWidth * (slideItemNum-1)+'px');
-        currentItemNum = 1;
-    }
-}
-
-setInterval(autoSlide, 5000);
+// 指定した要素の中の末尾に挿入
+textbox_element.appendChild(new_element);
