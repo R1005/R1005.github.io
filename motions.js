@@ -20,3 +20,22 @@ new_element.textContent = '追加テキスト';
 
 // 指定した要素の中の末尾に挿入
 textbox_element.appendChild(new_element);
+
+
+function getAccessWay() {
+  var ta = document.getElementById('aff')
+  var msg = ""
+  var ut = navigator.userAgent;
+  
+  if(ut.indexOf('iPhone') > 0 || ut.indexOf('iPod') > 0 || ut.indexOf('Android') > 0 && ut.indexOf('Mobile') > 0){
+    alert("Phine");
+  }
+  else if(ut.indexOf('iPad') > 0 || ut.indexOf('Android') > 0){
+    alert("ipad");
+  }
+  else{
+    alert("PC");
+  }
+  
+  // ta.textContent = msg
+}
