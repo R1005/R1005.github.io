@@ -3,9 +3,9 @@ function getAccessWay() {
   var textbox_element = document.getElementById('aff');
 
   var new_element = document.createElement('div');
-  new_element.textContent = '<div id = "aff"><div class = "aff_left"><a href = "pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank" rel = "noopener noreferrer"><img src = "img.moppy.jp/pub/pc/friend/120x600-11.jpg" class = "aff_img"></a></div><div class = "aff_right"><a href = "pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank"><img src = "img.moppy.jp/pub/pc/friend/120x600-3.jpg" class = "aff_img"></a></div></div>';
+  new_element.textContent = 'AAA';
 
-
+//<div id = "aff"><div class = "aff_left"><a href = "pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank" rel = "noopener noreferrer"><img src = "img.moppy.jp/pub/pc/friend/120x600-11.jpg" class = "aff_img"></a></div><div class = "aff_right"><a href = "pc.moppy.jp/entry/invite.php?invite=T63de169&type=service" target = "_blank"><img src = "img.moppy.jp/pub/pc/friend/120x600-3.jpg" class = "aff_img"></a></div></div>
 
   var ut = navigator.userAgent;
   
