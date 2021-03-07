@@ -1,5 +1,7 @@
 function getAccessWay() {
 
+  var path = "img.moppy.jp/pub/pc/friend/120x600-11";
+
   var textbox_element = document.getElementById('aff');
 
   var new_element = document.createElement('div');
@@ -18,6 +20,7 @@ function getAccessWay() {
   else{
     alert("PC");
     textbox_element.appendChild(new_element);
+    document.sw.src = path;
   }
 
 }
