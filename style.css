@@ -245,7 +245,7 @@ div.sentence_20210220 {
   top: 25vw;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   margin: 0 auto;
     font-size: 1.25vw;
 }
@@ -257,7 +257,7 @@ div.sentence_20210130 {
   top: 25vw;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   margin: 0 auto;
     font-size: 1.25vw;
 }
@@ -268,7 +268,7 @@ div.sentence_20210212 {
   top: 40vw;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
   margin: 0 auto;
     font-size: 1.25vw;
 }
