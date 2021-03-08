@@ -243,38 +243,27 @@ div.sentence_pub {
     transform: translateY(-50%) translateX(-50%);
     -webkit-transform: translateY(-50%) translateX(-50%);
     margin: 0 auto;
-      font-size: 1.25vw;
+    font-size: 1.25vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
 }
 
 div.sentence_20210220 {
-    text-align: center;
-    position: absolute;
   top: 25vw;
-  left: 50%;
-
 }
 
 
 div.sentence_20210130 {
-    text-align: center;
-    position: absolute;
   top: 25vw;
-  left: 50%;
-
 }
 
 div.sentence_20210212 {
-    text-align: center;
-    position: absolute;
   top: 40vw;
-  left: 50%;
 }
 
 div.sentence_20210308 {
-    text-align: center;
-    position: absolute;
   top: 40vw;
-  left: 50%;
 }
 
 img.article_img {
