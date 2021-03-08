@@ -288,3 +288,18 @@ div.nextPage {
   margin: 0 auto;
     font-size: 1.25vw;
 }
+
+input.nextPageButton {
+        font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
+    font-size: 0.9vw;
+    width: 10vw;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1% 1%;
+    text-decoration: none;
+    color: #f8f5e9;
+    border: 1px #f8f5e9;
+    background: gray;
+    border-radius: 10px;
+    transition: .5s;
+}
