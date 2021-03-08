@@ -303,3 +303,7 @@ input.nextPageButton {
     border-radius: 10px;
     transition: .5s;
 }
+input.nextPageButton:hover {
+    background: #9f91f9;
+    color: #fff;
+}
