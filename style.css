@@ -1,289 +1,59 @@
-.main {
-    background-color: #f8f5e9;
+body {
+    background-color: rgb(255, 252, 238);
 }
 
 div.menu {
-    padding-top: 0.5vw;
     text-align: center;
 }
 
-input.menuButton {
-    font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
-    font-size: 0.9vw;
-    width: 10vw;
-    cursor: pointer;
-    display: inline-block;
-    padding: 1% 1%;
-    text-decoration: none;
-    color: #f8f5e9;
-    border: 1px #f8f5e9;
+input.btn {
+    font-size: 100%;
+    padding: 5px 15px;   /* 縦,横 */
+    margin-top: 5px;
+    color: white;
     background: gray;
     border-radius: 10px;
+    border: none;
     transition: .5s;
 }
 
-input.menuButton:hover {
+input.btn:hover {
     background: #95beba;
     color: #FFF;
+    cursor: pointer;
 }
 
 p.title {
-    position: absolute;
-    top: 5vw; 
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    font-family: 'Comic Sans MS';
-    font-size: 3vw;
-}
-
-p.new {
     text-align: center;
-    color: red;
-    position: absolute;
-    top: 7vw;
+    font-size: 200%;
+    margin: 10px;
 }
 
-p.article_title {
-    position: absolute;
-    top: 10%; 
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    font-family: 'Comic Sans MS';
-    font-size: 2.5vw;
+div.art_border {
+    border: solid;
+    border: 1px solid;
+    border-color: rgb(255, 170, 50);
+    border-radius: 10px;
+    line-height:0;
+    width: 550px;
+
+/*     margin: 0 auto; */
+/*     padding: 0 0 0 0; */
 }
 
-div.aff_left {
-    position: absolute;
-    left: 7.5%;
-    top: 5vw;
-}
-
-div.aff_right {
-    position: absolute;
-    right: 7.5%;
-    top: 5vw;
-}
-
-.aff_img {
-    width: 7.5vw;
-}
-
-div.border1 {
+img.art_img {
+    width: 100px;
+    height: 75px;
     position: relative;
-    top: 300px;
+    padding: 10px 10px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-    font-size: 25px;
-}
-
-div.article20201106 {
-    position: absolute;
-    top: 35%;
-    left: 20%;
-}
-
-p.passage {
-    text-align: center;
-    position: absolute;
-    top: 30%; 
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    font-size: 25px;
-}
-
-div.center_set {
-    position: absolute;
-    left: 30%;
-    top: 15vw;
-    font-size: 1vw;
-}
-
-div.form {
-    position: absolute;
-    top: 30%; 
-    left: 50%;
-    transform: translateX(-50%);
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    font-family: 'Comic Sans MS';
-    font-size: 20px;
-}
-
-p.sendButtonArea {
-    text-align: center;
-}
-
-input.sendButton {
-    font-family: 'ヒラギノ丸ゴ ProN';
-    font-size: 15px;
-    width: 25%;
-    cursor: pointer;
-    display: inline-block;
-    padding: 1% 1%;
-    text-decoration: none;
-    color: #f8f5e9;
-    border: 1px #f8f5e9;
-    background: gray;
-    border-radius: 10px;
-    transition: .5s;
-}
-
-input.sendButton:hover {
-    background: #1f2ac0;
-    color: #FFF;
-}
-
-body{
-    background: #f6f5f4;
-    color: #333;
-}
-.main {
-    /* width: 1600px; */
-    margin: 30px auto;
-}
-
-div.history {
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    font-size: 20px;
-}
-
-img.href_20210130 {
-    width: 15%;
-    height: 15%;
-}
-
-div.article {
-    position: absolute;
-    left: 30%;
-    top: 15vw;
-}
-
-p.p_20210130 {
-    position: absolute;
-    left: 20%;
-    top: 12.5%;
-    font-size: 1.75vw;
-}
-
-.boder {
-    border: 4px solid;
-    border-radius: 1px;
-    border-color: #031de2;
-}
-
-div.article_box {
-    padding: 1%;
-    background: rgba(64, 209, 162, 0);
-    border: solid 1px rgb(218, 195, 72);
-    border-radius: 10px;
-    width: 40vw;
-}
-
-p.public_index_p {
-    position: absolute;
-    left: 12.5vw;
-    font-size: 1.5vw;
-}
-
-p.p_20210130 {
-    top: 1.25vw;
-}
-
-p.p_20210212 {
-    top: 9vw;
-}
-
-p.p_20210220 {
-    top: 16.5vw;
-}
-
-p.p_20210308 {
-    top: 24vw;
-}
-
-p.public_index_p {
-    position: absolute;
-    left: 12.5vw;
-    font-size: 1.5vw;
-}
-
-img.index_img {
-    width: 8vw;
-    height: 6vw;
+p.art_p {
+    font-size: 150%;
     position: relative;
-    top: 0.25vw;
-    left: 0.5vw;
-}
-
-div.sentence_pub {
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
+    top: -50px;
+    left: 150px;
     margin: 0 auto;
-    font-size: 1.25vw;
-    text-align: center;
-    position: absolute;
-    left: 50%;
-}
-
-div.sentence_20210220 {
-    top: 25vw;
 }
 
 
-div.sentence_20210130 {
-    top: 25vw;
-}
-
-div.sentence_20210212 {
-    top: 40vw;
-}
-
-div.sentence_20210308 {
-    top: 42.5vw;
-}
-
-img.article_img {
-    width: 20vw;
-    height: 15vw;
-}
-
-div.nextPage {
-    text-align: center;
-    position: absolute;
-    top: 48.5vw;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    margin: 0 auto;
-    font-size: 1.25vw;
-}
-
-input.nextPageButton {
-    font-family: 'ヒラギノ丸ゴ ProN', 'BradleyHandITCTT-Bold';
-    font-size: 0.9vw;
-    width: 10vw;
-    cursor: pointer;
-    display: inline-block;
-    padding: 1% 1%;
-    text-decoration: none;
-    color: #f8f5e9;
-    border: 1px #f8f5e9;
-    background: gray;
-    border-radius: 10px;
-    transition: .5s;
-}
-input.nextPageButton:hover {
-    background: #9f91f9;
-    color: #fff;
-}
