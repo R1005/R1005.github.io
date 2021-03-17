@@ -37,7 +37,7 @@ div.art_border {
     line-height:0;
     width: 550px;
 
-/*     margin: 0 auto; */
+margin: 0 auto;
 /*     padding: 0 0 0 0; */
 }
 
@@ -56,5 +56,8 @@ p.art_p {
     margin: 0 auto;
 }
 
+div.article {
+    padding: 0 0;
+}
 
 
