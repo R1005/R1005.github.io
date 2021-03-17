@@ -1,11 +1,15 @@
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+  
 body {
     background-color: rgb(255, 252, 238);
 }
-
+  
 div.menu {
     text-align: center;
 }
-
+  
 input.btn {
     font-size: 125%;
     padding: 5px 15px;   /* 縦,横 */
@@ -16,19 +20,19 @@ input.btn {
     border: none;
     transition: .5s;
 }
-
+  
 input.btn:hover {
     background: #95beba;
     color: #FFF;
     cursor: pointer;
 }
-
+  
 p.title {
     text-align: center;
     font-size: 250%;
     margin: 10px;
 }
-
+  
 div.art_border {
     border: solid;
     border: 1px solid;
@@ -36,18 +40,16 @@ div.art_border {
     border-radius: 10px;
     line-height:0;
     width: 550px;
-
-margin: 0 auto;
-/*     padding: 0 0 0 0; */
+    margin: 0 auto;
 }
-
+  
 img.art_img {
     width: 100px;
     height: 75px;
     position: relative;
     padding: 10px 10px;
 }
-
+  
 p.art_p {
     font-size: 150%;
     position: relative;
@@ -55,11 +57,11 @@ p.art_p {
     left: 150px;
     margin: 0 auto;
 }
-
+  
 div.article {
     padding: 0 0;
 }
-
+  
 a {
     text-decoration: none;
 }
