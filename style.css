@@ -7,7 +7,7 @@ div.menu {
 }
 
 input.btn {
-    font-size: 100%;
+    font-size: 125%;
     padding: 5px 15px;   /* 縦,横 */
     margin-top: 5px;
     color: white;
@@ -25,7 +25,7 @@ input.btn:hover {
 
 p.title {
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
     margin: 10px;
 }
 
@@ -55,5 +55,6 @@ p.art_p {
     left: 150px;
     margin: 0 auto;
 }
+
 
 
