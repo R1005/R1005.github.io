@@ -11,6 +11,7 @@ div.menu {
 }
   
 input.btn {
+    width: 22.5%;
     font-size: 140%;
     padding: 5px 15px;   /* 縦,横 */
     margin-top: 5px;
