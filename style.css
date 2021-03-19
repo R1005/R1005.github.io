@@ -41,7 +41,6 @@ div.art_border {
     line-height:0;
     width: 550px;
     margin: 0 auto;
-    padding-bottom: 10px;
 }
   
 img.art_img {
@@ -59,10 +58,14 @@ p.art_p {
     margin: 0 auto;
 }
   
-div.article {
+div.main {
     padding: 0 0;
 }
   
 a {
     text-decoration: none;
+}
+
+div.article {
+    padding-bottom: 10px;
 }
