@@ -76,5 +76,7 @@ div.article {
 }
 
 img.article_img {
-    width: 90%;
+    text-align: center;
+    width: 80vw;
+    height: 60vw;
 }
