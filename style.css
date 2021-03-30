@@ -76,6 +76,7 @@ img.article_img {
     padding-left: 5%;
     padding-right: 5%;
     width: 90%;
+    max-width: 755px;
 }
 p.sentence {
     font-size: 5vw;
@@ -87,4 +88,12 @@ div.history, div.about, div.sentense {
     position: absolute;
     left: 0%;
     font-size: 100%;
+}
+
+@media (min-width: 640px){
+    p.sentence {
+        font-size: 150%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
