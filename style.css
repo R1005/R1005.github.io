@@ -90,10 +90,10 @@ div.history, div.about, div.sentense {
     font-size: 100%;
 }
 
-@media (min-width: 640px){
+/* @media (min-width: 640px){
     p.sentence {
         font-size: 150%;
         padding-left: 5%;
         padding-right: 5%;
     }
-}
+} */
