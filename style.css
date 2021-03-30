@@ -76,7 +76,9 @@ img.article_img {
     width: 90%;
 }
 p.sentence {
-    font-size: 150%;
+    font-size: 5vw;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 div.history, div.about, div.sentense {
