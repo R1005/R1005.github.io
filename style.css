@@ -56,7 +56,7 @@ p.art_p {
     -webkit-text-size-adjust: none;
     font-size: 250%;
     position: relative;
-    left: 30%;
+    left: 250px;
     top: -85px;
     margin: 0 auto;
 }
