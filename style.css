@@ -48,6 +48,7 @@ div.art_border {
 img.art_img {
     width: 24%;
     height: 32%;
+    max-width: 150px;
     position: relative;
     padding: 10px 10px;
 }

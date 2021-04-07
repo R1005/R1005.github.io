@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "ja">
+    <head>
+        <meta charset = "UTF-8">
+        <title>デバッグ画面</title>
+        <style>
+            body {
+                background-color: black;
+                color: white;
+            }
+
+            .wrap { 
+
+                background-color:#03085C;
+     
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            
+            p {
+                opacity: 0;
+                animation: fadein 1s ease forwards;
+            }
+
+            @keyframes p {  
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+
+            .no1 {animation-delay: 1s;}
+            .no1 {animation-delay: 2s;}
+            .no1 {animation-delay: 3s;}
+
+        </style>
+        <script type = "text/javascript">
+            var now = new Date();
+            function getTime() {
+                var target = document.getElementById("GetTime");
+                var Year = now.getFullYear();
+                    var Month = now.getMonth()+1;
+                    var Date = now.getDate();
+                    var Hour = now.getHours();
+                    var Min = now.getMinutes();
+                    var Sec = now.getSeconds();
+                    target.innerHTML = "最終更新時間 : " + Year + "年" + Month + "月" + Date + "日" + Hour + "時" + Min + "分" + Sec + "秒";
+                }
+        </script>
+    </head>
+    <body onload = "getTime()">
+        <div class = "wrap">
+            <div class = "content">
+                <p id = GetTime class = "no1"></p>
+                <p class = "no2">Hello</p>
+                <p class = "no3">Test</p>
+            </div>
+        </div>
+    </body>
+</html>
