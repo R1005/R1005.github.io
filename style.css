@@ -31,7 +31,6 @@ input.btn:hover {
   
 p.title {
     text-align: center;
-/*     font-size: 450%; */
     font-size: 8vw;
     margin: 10px;
 }
@@ -42,6 +41,15 @@ p.title {
     }
 }
 
+p.art_p {
+    -webkit-text-size-adjust: none;
+    font-size: 4vw;
+    position: relative;
+    left: 27.5vw;
+    top: -9vw;
+    margin: 0 auto;
+}
+  
 
   
 div.art_border {
@@ -62,15 +70,7 @@ img.art_img {
     padding: 10px 10px;
 }
   
-p.art_p {
-    -webkit-text-size-adjust: none;
-    font-size: 250%;
-    position: relative;
-    left: 250px;
-    top: -85px;
-    margin: 0 auto;
-}
-  
+
 div.main {
     padding: 0 0;
 }
