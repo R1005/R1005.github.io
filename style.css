@@ -39,7 +39,6 @@ p.title {
     p.title {
         font-size: 425%;
     }
-    
 }
 
 p.art_p {
@@ -60,6 +59,7 @@ div.art_border {
     border-radius: 10px;
     line-height:0;
     width: 90%;
+    width: min( 90% ,800px);
     margin: 0 auto;
 }
   
