@@ -48,6 +48,7 @@ p.art_p {
     left: 27.5vw;
     left: min(27.5vw, 220px);
     top: -9vw;
+    top: max(-9vw, -85px);
     margin: 0 auto;
 }
   
