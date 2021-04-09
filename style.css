@@ -46,8 +46,7 @@ p.art_p {
     font-size: min(4vw, 40px);
     position: relative;
     left: min(27.5vw, 215px);
-
-    top: -9vw;
+    top: max(-9vw, -85px);
     margin: 0 auto;
 }
   
