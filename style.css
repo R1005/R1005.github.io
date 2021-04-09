@@ -92,7 +92,7 @@ img.article_img {
     
 }
 
-p.sentence {
+p.sentence, stlike.sentence {
     font-size: 5vw;
     padding-left: 5%;
     padding-right: 5%;
