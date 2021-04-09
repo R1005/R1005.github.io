@@ -14,9 +14,14 @@
         <p class = "title">フォーム</p>
 
         <div class = "main">
-            <form action = "post">
-                <input type = "text" src = "form.php">
+            <form action = "form.php" method = "POST">
+                <p>お名前</p>
+                <textarea name = "name" class = "name"></textarea>
+                <p>内容</p>
+                <textarea name = "detail" class = "detail" rows = "3"></textarea>
+                <br><input type = "submit" class = "submit_btn" value = "書き込む">
             </form>
         </div>
+
     </body>
 </html>
