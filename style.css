@@ -122,7 +122,7 @@ textarea.detail {
     width: min(75%, 500px);
 }
 
-input.submit_btn {
+input.send_btn {
     width: 10vw;
     height: 3vw;
     background-color: rgb(64, 224, 192);
