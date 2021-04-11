@@ -93,7 +93,7 @@ img.article_img {
 }
 
 p.sentence, stlike.sentence {
-    font-size: 5vw;
+    font-size: 4vw;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -114,17 +114,17 @@ div.history, div.about, div.sentense {
 
 textarea.name {
     resize: none;
-    width: min(25%, 200px);
+    width: 30%;
 }
 
 textarea.detail {
     resize: none;
-    width: min(75%, 500px);
+    width: 75%;
+    height: 5vw;
 }
 
 input.send_btn {
-    width: 10vw;
-    height: 3vw;
+    width: min(15%,100px);
     background-color: rgb(64, 224, 192);
     border: none;
     font-size: 100%;
